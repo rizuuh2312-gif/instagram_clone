@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Instagram Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="logo">Instagram</div>
+            <ul class="nav-links">
+                <li><a href="#"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                <li><a href="#"><i class="fas fa-search"></i> <span>Search</span></a></li>
+                <li><a href="#"><i class="fas fa-compass"></i> <span>Explore</span></a></li>
+                <li><a href="#"><i class="fas fa-heart"></i> <span>Notifications</span></a></li>
+                <li><a href="#"><i class="fas fa-plus-square"></i> <span>Create</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Feed Content -->
+        <main class="main-content">
+            <!-- Stories Section -->
+            <section class="stories-container">
+                <div class="story"><div class="story-circle"></div><p>user_1</p></div>
+                <div class="story"><div class="story-circle"></div><p>user_2</p></div>
+                <div class="story"><div class="story-circle"></div><p>user_3</p></div>
+            </section>
+
+            <!-- Posts Feed -->
+            <section class="feed">
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-avatar"></div>
+                        <span class="username">travel_explorer</span>
+                    </div>
+                    <img src="https://picsum.photos" alt="Post Image" class="post-img">
+                    <div class="post-actions">
+                        <i class="far fa-heart heart-btn"></i>
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                    </div>
+                    <div class="post-likes"><span class="like-count">124</span> likes</div>
+                    <div class="post-caption"><strong>travel_explorer</strong> Chasing sunsets! 🌅</div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
